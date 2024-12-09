@@ -1,17 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
 .header-menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1F2937;
     
 }
 
 .LogoWrap {
     padding-left: 50px;
+
 }
 .Header-Links {
     display: flex;
     gap: 20px;
     padding-right: 50px;
+    font-size: 18px;
+    color: #f9faf8;
 }
 
+.hero {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
 
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-items: center;
+    font-size: 18px;
+    color: #f9faf8;
+    max-width: 350px;
+    padding-right: 200px;
+}
+
+.Sign-Up-Button {
+    max-width: 120px;
+    background-color: #3882F6;
+    color: #f9faf8;  
+    font-size: 18px;
+    border-color: #3882F6;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.Title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.ListImg {
+    height: auto;
+    width: 300px;
+    gap: 30px;
+}
+
+.subtext {
+    display: flex;
+    gap: 300px;
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+.Quote {
+    background-color: #e5e7eb;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 50px;
+}
+
+.CallAction {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
