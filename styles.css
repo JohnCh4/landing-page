@@ -1,0 +1,17 @@
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.LogoWrap {
+    padding-left: 50px;
+}
+.Header-Links {
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+
